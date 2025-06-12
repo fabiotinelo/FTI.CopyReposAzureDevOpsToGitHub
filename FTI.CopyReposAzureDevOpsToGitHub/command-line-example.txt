@@ -1,0 +1,7 @@
+git clone --bare https://[pac]@dev.azure.com/iteris-igc/Backend/_git/dotnet-ie2-azure-ad-authentication
+cd dotnet-ie2-azure-ad-authentication.git
+
+curl -X POST https://api.github.com/user/repos -H "Authorization: token [pac]" -H "Accept: application/vnd.github.v3+json" -d "{\"name\":\"dotnet-ie2-azure-ad-authentication\", \"private\":true}"	
+
+git push --mirror https://[pac]@github.com/fabiotinelo/dotnet-ie2-azure-ad-authentication.git
+

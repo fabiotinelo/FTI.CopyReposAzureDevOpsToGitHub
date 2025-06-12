@@ -1,1 +1,1 @@
-# FTI.CopyReposAzureDevOpsToGitHub
+# Globant.CopyReposAzureDevOpsToGitHub
